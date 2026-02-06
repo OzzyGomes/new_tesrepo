@@ -20,8 +20,8 @@ def analise_faturamento(df):
     faturamento = df['valor_total'].sum()
     print(f"--- Relatório de Vendas ---")
     print(f"Faturamento Total: R$ {faturamento:.2f}")
-    print(f"Faruramento calculado com sucesso.")
-    print(f"-----------FIM-----------")
+    # print(f"Faruramento calculado com sucesso.")
+    # print(f"-----------FIM-----------")
     
     # Exercicio futuro: Adicionar média por produto aqui
     return faturamento
